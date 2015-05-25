@@ -1,5 +1,8 @@
 // ==UserScript==
 // @name        Python Docs TOC
+// @description Dynamically generates TOC for the pages of the Python documentation sites
+// @version     1.0
+// @author      Denis Gonsiorovsky
 // @downloadURL https://github.com/gonsiorovsky/pytoc/raw/master/pytoc.user.js
 // @updateURL   https://github.com/gonsiorovsky/pytoc/raw/master/pytoc.user.js
 // @include     http://api.mongodb.org/python/*
