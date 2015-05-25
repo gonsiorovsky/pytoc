@@ -1,5 +1,7 @@
 // ==UserScript==
 // @name        Python Docs TOC
+// @downloadURL https://github.com/gonsiorovsky/pytoc/raw/master/pytoc.user.js
+// @updateURL   https://github.com/gonsiorovsky/pytoc/raw/master/pytoc.user.js
 // @include     http://api.mongodb.org/python/*
 // @include     https://docs.python.org/*
 // @run-at      document-end
