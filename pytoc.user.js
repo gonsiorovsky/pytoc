@@ -5,12 +5,15 @@
 // @author      Denis Gonsiorovsky
 // @downloadURL https://github.com/gonsiorovsky/pytoc/raw/master/pytoc.user.js
 // @updateURL   https://github.com/gonsiorovsky/pytoc/raw/master/pytoc.user.js
-// @include     http://api.mongodb.org/python/*
-// @include     https://docs.python.org/*
+// @include     *
 // @run-at      document-end
 // ==/UserScript==
 
 ;(function(){
+    if (!document.querySelector('.docutils')) {
+        return;
+    }
+
     var style = document.createElement('style');
     style.innerHTML = '.toc-nobullet { list-style: none; } .toc-noindent { padding-left: 0; } .toc-strong { font-weight: bold; }';
     document.querySelector('head').appendChild(style);
